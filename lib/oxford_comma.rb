@@ -10,7 +10,7 @@ elsif array.length == 3
     return array.join(" ")
 else array.length > 3
   new_array = array[-2] << (", and ")
-  combind_array= array[0..-3] * (", ") + (", ") + new_array + array[-1] * ( " ")
+  combind_array= array[0..-3] * (", ") + (", ") + new_array + array[-1]
   return combind_array
 end
 
