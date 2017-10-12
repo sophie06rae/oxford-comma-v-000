@@ -9,7 +9,7 @@ elsif array.length == 3
     return three_array
 else array.length > 3
   new_array = array[-2] << (", and ")
-  combind_array= array[0..-3] * (", ") + (", ") + new_array + array[-1]
-  return combind_array
+  three_or_more_array= array[0..-3] * (", ") + (", ") + new_array + array[-1]
+  return three_or_more_array
 end
 end
